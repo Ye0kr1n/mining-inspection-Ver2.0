@@ -1,0 +1,86 @@
+{
+    "Monero-xmrig-6.16.4":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-6.16.4.exe",
+		"FILEHASH": "6dc795fcb64ad6c2d7e616b2946cd2335e89185ed6436ce3d98ee3c81fc323d6"
+	},
+	 "Monero-xmrig-0.15.0.1 Lithium Luna GUI-Win":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1-GUI.exe",
+		"FILEHASH": "a09cc7bf06834e49ec267e89daf1dc6ecc3b2c34ac50e8f0548f8997aef37b06"
+	},
+	"Monero-xmrig-0.15.0.1 Lithium Luna command win":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1.exe",
+		"FILEHASH": "a1d2a4a0a9f2cdb17808c0b7a2a872a70c9f3e6487494b29cc1627b5490f25e9"
+	},
+	"Monero-xmrig-0.15.0.1 x86 Lithium Luna command":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1 x86.exe",
+		"FILEHASH": "a3dc6d57c52383fcb83337799909c2c85cc8fe88b127d9408e3ea92880beb38d"
+	},
+	"Monero-xmrig-0.15.0.1 x64 Lithium Luna GUI-macos":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1_x64",
+		"FILEHASH": "c8994781510e234985e24f465761355e4ae7bd58ef686bd8b0ce4401c2314d51"
+	},
+	"Monero-xmrig-0.15.0.1 x64 Lithium Luna Commmand-macos":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1_x64",
+		"FILEHASH": "f3648a94fc9252a2e5b6e56978e756ff272403ec385f8be42338cae3f4f4e8a5"
+	},
+	"Monero-xmrig-0.15.0.1 x64 Lithium Luna GUI-Linux":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1_x64",
+		"FILEHASH": "85a6885849d578691a09834c66ed55af4783ea8347b7784de9ea46e90995a57c"
+	},
+	"Monero-xmrig-0.15.0.1 x86 Lithium Luna command-Linux":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1_x86",
+		"FILEHASH": "f157d8130978772bfe3ec4ebaca21f561dc0deffe49904af49f4a11d96c0cda6"
+	},
+	"Monero-xmrig-0.15.0.1 x64 Lithium Luna Command-Linux":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-0.15.0.1_x64",
+		"FILEHASH": "8d61f992a7e2dbc3d753470b4928b5bb9134ea14cf6f2973ba11d1600c0ce9ad"
+	},
+	"Monero-xmrig-6.16.4-focal":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-6.16.4-focal-x64-Linux",
+		"FILEHASH": "dbf309679917cf7aba5b0f198af40793509743a6a9d9b107834c2aa99661b94a"
+	},
+	"Monero-xmrig-6.16.4-bionic":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-6.16.4-bionic-x64-Linux",
+		"FILEHASH": "dde19847f562d394335223a4ae8bd32dc326e172e34b095ace2db37ba5ba839d"
+	},
+	"Monero-xmrig-6.16.4-MacOS-arm64":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-6.16.4-MacOS-arm64",
+		"FILEHASH": "b0d8a7038d2bd270fac9e94763e797ca7b444ae23ff6590842e76e67a100f196"
+	},
+		"Monero-xmrig-6.16.4-MacOS-x64":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-6.16.4-MacOS-x64",
+		"FILEHASH": "0f4c66a6e3b84df8c431a875d3890873cbe2d6e987d4ada0896e735325949ee9"
+	},
+		"Monero-xmrig-6.16.4-FreeBSD-x64":
+    {
+	    "TYPE":"Monero",
+		"FILENAME": "xmrig-6.16.4-FreeBSD-x64",
+		"FILEHASH": "855443d0ec4eeab5d2d98af37c64fd1a2397e0bd34993069417b2b285d8fdc3a"
+	}
+}
