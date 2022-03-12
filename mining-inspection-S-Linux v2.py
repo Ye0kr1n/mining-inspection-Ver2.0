@@ -94,22 +94,26 @@ def process_requ(data):
 
 
 def handle_client(client_socket):
-    request_data = client_socket.recv(655350)
+    request_data = client_socket.recv(65535)
     # print("request data:", request_data)
-    process_requ(request_data)
+    #process_requ(request_data)
     # 构造响应数据
-    filename = reqdata(request_data)
-    if 'report' not in filename:
+    try:
+        process_requ(request_data)
+        response_start_line = res_body('OK')[0]
+        response_headers = res_body('OK')[1]
+        response_body = res_body('OK')[2]
+    except:
+    #filename = reqdata(request_data)
         response_start_line = res_body('hello')[0]
         response_headers = res_body('hello')[1]
         response_body = res_body('hello')[2]
-    else:
-        process_requ(request_data)
     response = response_start_line + response_headers + "\r\n" + response_body
     # 向客户端返回响应数据
     client_socket.send(bytes(response, "utf-8"))
     # 关闭客户端连接
     client_socket.close()
+
 
 
 def banner():
